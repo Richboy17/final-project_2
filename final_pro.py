@@ -89,8 +89,8 @@ dcleancopy = dcleancopy.astype({"quality":'int'})
 
 df_outlier_clean_dropduplicate.info()
 
-!pip install sweetviz
-import sweetviz as sv
+#!pip install sweetviz
+#import sweetviz as sv
 
 wine_quality_report = sv.analyze(dcleancopy)
 #display the report
