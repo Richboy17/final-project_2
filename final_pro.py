@@ -34,7 +34,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.metrics import mean_absolute_percentage_error
 from sklearn.metrics import r2_score
 
-df = pd.read_csv('/content/winequality-red.csv', header=0, delimiter=';')
+df = pd.read_csv(r'winequality-red.csv', header=0, delimiter=';')
 
 fig = px.histogram(df, x="quality")
 
